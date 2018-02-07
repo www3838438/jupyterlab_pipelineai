@@ -1,0 +1,13 @@
+.jp-pipelineaiWidget {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.jp-pipelineai {
+    margin: auto;
+}
+
+.jp-pipelineaiAttribution {
+    margin: 20px auto;
+}

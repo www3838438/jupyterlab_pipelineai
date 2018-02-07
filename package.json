@@ -1,0 +1,44 @@
+{
+  "name": "@jupyterlab/pipelineai-extension",
+  "version": "0.1.0",
+  "description": "PipelineAI Extension",
+  "keywords": [
+    "extension",
+    "jupyter",
+    "jupyterlab",
+    "pipelineai",
+    "ml",
+    "ai"
+  ],
+  "homepage": "https://github.com/PipelineAI/pipeline",
+  "bugs": {
+    "url": "https://github.com/PipelineAI/pipeline/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "PipelineAI",
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PipelineAI/pipeline.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf lib",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "^0.15.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "typescript": "~2.6.0"
+  },
+  "jupyterlab": {
+    "extension": true
+  }
+}

@@ -9,8 +9,9 @@ Show PipelineAI in JupyterLab panel
 
 ## Installation
 
+Coming Soon!
 ```bash
-jupyter labextension install @jupyterlab/pipelineai-extension
+#jupyter labextension install @jupyterlab/pipelineai-extension
 ```
 
 ## Development
